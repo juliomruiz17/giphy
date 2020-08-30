@@ -1,0 +1,23 @@
+
+ <h1 class="title"> BEM-VINDA(O) GIPHY API APP</h1>
+ 
+ 
+  <div class="buscar" >
+    <button type="submit" routerLink= "">
+      Retorna </button>
+  </div>
+
+
+
+
+ <div class="gifs">
+   <div class="gif" *ngFor="let gif of gifs">
+     <img [src]="gif.images.downsized.url" alt="image">
+     
+ 
+  </div>
+  
+ 
+ 
+ 
+ </div>
